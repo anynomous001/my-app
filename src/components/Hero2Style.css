@@ -1,0 +1,56 @@
+.hero2-container {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+.hero2-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.hero2-container::after {
+    content: '';
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hero2-content {
+    /*transform: -50%, -50%;*/
+    position: absolute;
+    width: 50%;
+    top: 35%;
+    left: 25%;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    font-family: 'Bayon', sans-serif;
+}
+
+.hero2-content h2 {
+    font-size: 4rem;
+    color: aliceblue;
+}
+
+.hero2-content p {
+
+    font-size: 1.2rem;
+}
+
+.hero2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 0.5em;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ 
+.pricecard {
+    width: 100%;
+    height: 55vh;
+        background-color: #00555a;
+}
+
+.card-holder {
+    border: 1px solid #00555a;
+    text-align: center;
+    padding: 1em 1.5em;
+    height: 80%;
+}
+
+.card-holder h2 {
+    color: aliceblue;
+    margin: 0.8rem;
+    font-family: 'Bayon', sans-serif;
+}
+
+.card-holder p {
+    font-size: 0.8rem;
+    padding: 1rem;
+}
+
+@media only screen and (max-width:700px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+        gap: 1.8em;
+        width: 80%;
+        height: 100%;
+        margin: 2em;
+    }
+
+    .pricecard {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card-holder {
+        border: 1px solid whitesmoke;
+        text-align: center;
+        padding: 1em 1.5em;
+        height: 100%;
+        width: 65%
+    }
+}

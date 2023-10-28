@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.form-container-outer {
+    background-color: aquamarine;
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    place-items: center;
+}
+
+.form-container-inner {
+    width: 90%;
+    border: 1px solid black;
+}
+
+.form-container-inner h3 {
+    font-size: 2.3rem;
+    padding: 0.5em 0.5em 0.5em 10%;
+    display: inline-block;
+    background-color: bisque;
+}
+
+.form-el {
+    padding: 1em;
+}
+
+.form {
+    padding: 2em;
+}

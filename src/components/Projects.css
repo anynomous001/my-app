@@ -1,0 +1,144 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+.projectcardcontainer {
+    
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
+    width: 100%;
+    grid-gap: 0.5em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 3em 0;
+    justify-items: center;
+    grid-row-gap: 2em;
+        border: 1px solid black;
+        margin: 0;
+        padding-top: 2em;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-image: url('../assets/joshua-aragon-FGXqbqbGt5o-unsplash.jpg');
+}
+
+.projectcard {
+    width: 80%;
+    padding: 0.8rem;
+background-color: lightcoral;
+    border: 1px solid blanchedalmond;
+
+
+}
+
+.projectcard .source {
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 0.5em 0.8em;
+}
+
+.projectcard .view {
+    background-color: yellowgreen;
+    border-radius: 5px;
+    padding: 0.5em 0.8em;
+}
+
+.projectcard img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.projectcard h4 {
+    font-size: 1.5rem;
+    margin: 0.3em;
+}
+
+.projectcard p {
+    font-size: 01rem;
+    margin: 0.3em;
+
+}
+
+.projectcard div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.projectcard p,
+a {
+    margin: 0.2em 0.2em 0.8em 0.2em;
+}
+
+@media only screen and (max-width : 800px) {
+    .projectcardcontainer {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1em;
+        justify-items: center;
+        margin-top: 5em;
+        margin-bottom: 3em;
+        padding: 1em;
+    }
+
+    .projectcard div {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .projectcard {
+        width: 90%;
+        padding: 0.8rem;
+        border: 1px solid blanchedalmond;
+    }
+
+    .projectcard h4,
+    p,
+    a {
+        margin: 1em;
+        margin-left: 0;
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (max-width : 500px) {
+    .projectcardcontainer {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2em;
+        justify-items: center;
+    }
+
+    .projectcard {
+        width: 80%;
+        padding: 0.8rem;
+        border: 1px solid blanchedalmond;
+    }
+
+
+
+    .projectcard h4 {
+        font-size: 1.8rem;
+        margin: 0.5em 0 0.8em 0;
+    }
+
+    .projectcard p {
+        font-size: 1.1rem;
+    }
+
+    .projectcard p,
+    a {
+        margin: 0.2em 0.2em 0.8em 0.2em;
+    }
+
+}
