@@ -19,8 +19,11 @@ const Project = () => {
                 text={'Some of my recent Projects'}
             />
             {/*<PricingCards />*/}
-            <div>
-                <h1 className='project-headline' >Projects</h1>
+            <div className='headline-div'>
+                <h1 className='project-headline' >My Projects</h1>
+                <h4 className='sub-headline'>Note that the development build is not optimized.
+                    To create a production build, use npm run build.
+                    webpack compiled successfully</h4>
             </div>
             <Projects />
             <Footer />
