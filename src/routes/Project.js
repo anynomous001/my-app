@@ -19,10 +19,13 @@ const Project = () => {
                 text={'Some of my recent Projects'}
             />
             {/*<PricingCards />*/}
+            <div>
+                <h1 className='project-headline' >Projects</h1>
+            </div>
             <Projects />
             <Footer />
         </div>
     )
 }
 
-export default Project
+export default Project 
