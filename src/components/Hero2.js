@@ -5,12 +5,13 @@ const Hero2 = ({ video, headline, text }) => {
     return (
         <div className='hero2'>
             <div className='hero2-container'>
-         {/*<img className='hero2-img' src={img} alt='' />      
-        <video  src={video} autoplay muted loop/>*/}  
- <video className='hero2-img' autoPlay muted loop id="video-background">
-      <source src={video} type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
+                {/*<img className='hero2-img' src={img} alt='' />      
+        <video  src={video} autoplay muted loop/>*/}
+
+                <video className='hero2-img' autoPlay muted loop id="video-background">
+                    <source src={video} type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
 
 
             </div>

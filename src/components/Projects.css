@@ -6,7 +6,6 @@
 }
 
 
-
 .projectcardcontainer {
     
     border-top-right-radius: 20%;
@@ -14,8 +13,7 @@
     width: 100%;
     grid-gap: 0.5em;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 3em 0;
+    grid-template-columns: repeat(2,37%);
     justify-items: center;
     grid-row-gap: 2em;
         border: 1px solid black;
@@ -24,7 +22,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: center;
-        background-image: url('../assets/joshua-aragon-FGXqbqbGt5o-unsplash.jpg');
+        background-image: url('../assets/project.jpg');
 }
 
 .projectcard {

@@ -1,13 +1,14 @@
 import React from 'react'
 import './Projects.css'
 import { ProjectData } from './ProjectData'
-import intro from '../assets/intro.jpg'
+import project from '../assets/project.jpg'
+
 
 const Projects = () => {
     const data = ProjectData.map((item) => {
         return (
-            <div className='projectcard'>
-                <img src={intro} />
+            <div key={Math.random()} className='projectcard'>
+                <img src={project} alt='Project-photo' />
                 <h4>{item.name}</h4>
                 <p>{item.about}</p>
                 <div>

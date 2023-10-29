@@ -3,11 +3,16 @@ import './HeroStyle.css'
 
 import { Link } from 'react-router-dom'
 
-const Hero = ({ headline, img }) => {
+const Hero = ({ headline, video }) => {
     return (
         <div className='hero'>
             <div className='hero-img-holder'>
-                <img className='hero-img' src={img} alt='' />
+                {/*<img className='hero-img' src={img} alt='' />*/}
+
+                <video className='hero-img' autoPlay muted loop>
+                    <source src={video} type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
             </div>
             <div className='content'>
                 <p>Hi there</p>
