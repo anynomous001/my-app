@@ -21,7 +21,7 @@ const Projects = () => {
 
     return (
 
-        <div className='projectcardcontainer'>
+        <div className='pCard-Container'>
             {data}
         </div>
     )

@@ -7,15 +7,15 @@ const Footer = () => {
             <div className='footer-container'>
                 <div className='left'>
                     <div>
-                        <FaHome size='25' style={{ color: '#fff' }} />
+                        <FaHome size='25' className='icons' />
                         <h4>My Address</h4>
                     </div>
                     <div>
-                        <FaPhone size='25' style={{ color: '#fff' }} />
+                        <FaPhone size='25' className={'icons'} />
                         <p>9874353532</p>
                     </div>
                     <div>
-                        <FaMailBulk size='25' style={{ color: '#fff' }} />
+                        <FaMailBulk size='25' className={'icons'} />
                         <p>Chakrobortypritam1@gmail.com</p>
                     </div>
                 </div>
@@ -25,7 +25,7 @@ const Footer = () => {
                         It will be replaced with the URL of the `public` folder during the build.
                         Only files inside the `public` folder can be referenced from the HTML. </p>
                     <div>
-                        <FaFacebook size='25' style={{ color: '#fff' }} /><FaTwitter size='25' style={{ color: '#fff' }} /><FaLinkedin size='25' style={{ color: '#fff' }} />
+                        <FaFacebook size='25' className={'icons'} /><FaTwitter size='25' className={'icons'} /><FaLinkedin size='25' className={'icons'} />
                     </div>
                 </div>
 
@@ -37,4 +37,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer;
