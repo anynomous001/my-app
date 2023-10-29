@@ -5,6 +5,9 @@ import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
 //import intro from '../assets/intro.jpg'
 //import video2 from '../assets/video2.mp4'
+import { BsGithub } from 'react-icons/bs'
+import { MdEmail } from 'react-icons/md'
+import { FaLinkedinIn, FaCode } from 'react-icons/fa'
 
 
 const Home = () => {
@@ -13,9 +16,17 @@ const Home = () => {
             <Navbar />
             <div className='homeHero-div'>
                 <div>
-                    <span>Hi, I'm Pritam</span>
-                    <h2>A Frontend Developer with a passion of coding, design and bringing ideas to <br></br>
-                        life.<span> One line of code at a time.</span></h2>
+                    <span className='small-tag'>Hi, I'm Pritam <FaCode className='facode' /></span>
+                    <h2>A <span className='visbyfont'>Frontend Developer</span> with a passion of<span className='coding'> coding</span>,
+                        <span className='design'> design</span> and <span className='ideas'>bringing ideas to
+                            life</span>.<br></br> <span> One line of code at a time.</span></h2>
+
+                    <div className='btn-container'>
+                        <Link className='btn' to='/Project'>Project</Link>
+                        <Link className='round-btn github' to='/Contact '><BsGithub className='github-icon' /></Link>
+                        <Link className='round-btn github' to='/Contact '><FaLinkedinIn className='github-icon' /></Link>
+                        <Link className='round-btn github' to='/Contact '><MdEmail className='github-icon' /></Link>
+                    </div>
                 </div>
 
             </div>
