@@ -17,8 +17,21 @@
 
 .nav-menu {
     display: flex;
+    gap: 2em;
 }
 
+.logo-name{
+    font-size: 3rem;
+    
+    
+    color: #45a585;
+        background-image: -webkit-linear-gradient(45deg, #45a585 28%, #753690 71%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 5px 1px 5px -webkit-linear-gradient(45deg, #45a585 28%, #753690 71%);
+}
 .nav-menu li {
     padding: 0 0.8rem;
     list-style: none;
@@ -26,8 +39,9 @@
 
 
 .nav-menu li a {
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-weight: 600;
+        color: #1a1a1a;
 }
 
 .hamburger {
