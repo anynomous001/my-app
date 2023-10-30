@@ -23,7 +23,7 @@ const Home = () => {
 
                     <div className='btn-container'>
                         <Link className='btn' to='/Project'>Project</Link>
-                        <Link className='round-btn github' to='/Contact '><BsGithub className='github-icon' /></Link>
+                        <Link className='round-btn github' to='https://github.com/anynomous001'><BsGithub className='github-icon' /></Link>
                         <Link className='round-btn github' to='/Contact '><FaLinkedinIn className='github-icon' /></Link>
                         <Link className='round-btn github' to='/Contact '><MdEmail className='github-icon' /></Link>
                     </div>
