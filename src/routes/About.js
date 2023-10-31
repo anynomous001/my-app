@@ -1,16 +1,25 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Hero2 from '../components/Hero2'
 import Footer from '../components/Footer'
-import about from '../assets/about.jpg'
-import Skills from '../components/skills'
+//import Skills from '../components/skills'
+import { PiHandWaving } from 'react-icons/pi'
 
 const About = () => {
     return (
-        <div>
+        <div className='aboutHero-div-container'>
             <Navbar />
-            <Hero2 img={about} headline={'About'} text={"I'm a friendly Frontend Developer"} />
-            <Skills />
+            <div className='aboutHero-div'>
+                <div className='intro-div'>
+                    <span className='opener-tag'><PiHandWaving className='waving' />Hi, I'm Pritam Chakroborty</span>
+                    <h2 className='greetings'>Nice to meet you !</h2>
+
+                    <div className='btn-container'>
+
+                    </div>
+                </div>
+
+            </div>
+            {/*<Skills />*/}
             <Footer />
         </div>
     )

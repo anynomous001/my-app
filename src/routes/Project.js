@@ -9,9 +9,11 @@ import video1 from '../assets/video1.mp4'
 
 
 const Project = () => {
+    // script.js
+
 
     return (
-        <div>
+        <div >
             <Navbar />
             <Hero2
                 video={video1}

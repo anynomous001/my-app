@@ -91,8 +91,8 @@ ul {
 }
 
 .visbyfont {
-  font-family: 'visby';
-  font-size: 2rem;
+  font-family: 'Outfit', sans-serif;
+  font-size: 2.5rem;
   color: #DF0A42;
 }
 
@@ -111,26 +111,27 @@ ul {
 }
 
 .homeHero-div div h2 {
+  font-family: 'visby', sans-serif;
   word-spacing: 0.2em;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin: 1em 0;
 }
 
 .coding {
-  font-family: 'visby';
-  font-size: 2rem;
+  font-family: 'Outfit', sans-serif;
+  font-size: 2.5rem;
   color: #2D5869;
 }
 
 .ideas {
-  font-family: 'visby';
-  font-size: 2rem;
+  font-family: 'Outfit', sans-serif;
+  font-size: 2.5rem;
   color: #2795AC;
 }
 
 .design {
   font-family: 'visby';
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #FB6C06;
 }
 
@@ -180,4 +181,44 @@ ul {
 .btn-container {
   display: flex;
   align-items: center;
+}
+
+
+/* About Page Css*/
+.aboutHero-div-container {}
+
+.intro-div {
+  margin-top: 8em;
+  padding-left: 2em;
+  position: relative;
+}
+
+.aboutHero-div {
+  background-color: #1a1a1a;
+  height: 50vh;
+  padding: 4em;
+}
+
+
+.waving {
+  width: 8em;
+  height: 6em;
+  color: #dec196;
+}
+
+.greetings {
+  margin-left: 2em;
+  font-size: 6rem;
+  position: absolute;
+  top: 30%;
+  color: aliceblue;
+  right: 33%;
+}
+
+.opener-tag {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  font-size: 2rem;
+  color: aliceblue;
 }
