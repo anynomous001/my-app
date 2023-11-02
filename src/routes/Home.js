@@ -7,7 +7,13 @@ import Footer from '../components/Footer'
 //import video2 from '../assets/video2.mp4'
 import { BsGithub } from 'react-icons/bs'
 import { MdEmail } from 'react-icons/md'
-import { FaLinkedinIn, FaCode } from 'react-icons/fa'
+import { SiFirebase, SiReactrouter, SiTypescript, SiTailwindcss } from 'react-icons/si'
+import {
+    FaLinkedinIn,
+    FaCode,
+    FaGitAlt,
+    FaReact, FaHtml5, FaCss3, FaJsSquare,
+} from 'react-icons/fa'
 
 
 const Home = () => {
@@ -28,7 +34,21 @@ const Home = () => {
                         <Link className='round-btn github' to='/Contact '><MdEmail className='github-icon' /></Link>
                     </div>
                 </div>
-
+            </div>
+            <div className='home-skills-container'>
+                <h1 className='home-skills-headline'>Technologies</h1>
+                <p className='home-skills-subheadline'>that i use </p>
+                <div className='skill-div'>
+                    <div className='first-row'></div>
+                    <div className='first-row'></div>
+                    <div className='first-row'></div>
+                    <div className='second-row'></div>
+                    <div className='second-row'></div>
+                    <div className='second-row'></div>
+                    <div className='third-row'></div>
+                    <div className='third-row'></div>
+                    <div className='third-row'></div>
+                </div>
             </div>
             {/*<Hero video={video2} headline={"I'm a Frontend Developer."} />*/}
             <Footer />

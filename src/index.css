@@ -65,7 +65,61 @@ ul {
   -webkit-background-clip: text;
   text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
+  animation: customAni 2s ease-in-out 0s 1 normal backwards;
 }
+
+@keyframes customAni {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 1;
+    transform: translateY(-45px);
+  }
+
+  24% {
+    opacity: 1;
+  }
+
+  40% {
+    animation-timing-function: ease-in;
+    transform: translateY(-24px);
+  }
+
+  65% {
+    animation-timing-function: ease-in;
+    transform: translateY(-12px);
+  }
+
+  82% {
+    animation-timing-function: ease-in;
+    transform: translateY(-6px);
+  }
+
+  93% {
+    animation-timing-function: ease-in;
+    transform: translateY(-4px);
+  }
+
+  25%,
+  55%,
+  75%,
+  87% {
+    animation-timing-function: ease-out;
+    transform: translateY(0px);
+  }
+
+  100% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+
+
+
+
+
+
 
 .sub-headline {
   color: #dec196;
@@ -79,6 +133,9 @@ ul {
   width: 30em;
   margin: 1.5em auto;
 }
+
+/****************************************************************************************************************************************/
+
 
 /*Home css*/
 .homeHero-div {
@@ -183,6 +240,67 @@ ul {
   align-items: center;
 }
 
+.home-skills-container {
+  background-color: #1a1a1a;
+  padding: 3em 0;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  border-top-right-radius: 40%;
+  border-top-left-radius: 40%;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+.home-skills-headline {
+  margin: 0 auto;
+  font-size: 5rem;
+  width: 50%;
+}
+
+.home-skills-container::after {
+  position: absolute;
+  content: '';
+  background-color: aliceblue;
+  height: inherit;
+  width: inherit;
+  z-index: -1;
+  left: 0;
+  bottom: 0;
+}
+
+.home-skills-subheadline {
+  margin-bottom: 4.5em;
+  font-size: 2rem;
+}
+
+.skill-div {
+  margin-top: 1em;
+  height: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+}
+
+.skill-div .first-row {
+  border-right: 1px solid rgba(255, 255, 255, 0.363);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.363);
+}
+
+.skill-div .second-row {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.363);
+
+  border-right: 1px solid rgba(255, 255, 255, 0.363);
+
+}
+
+.skill-div .third-row {
+  border-right: 1px solid rgba(255, 255, 255, 0.363);
+
+}
+
+/*****************************************************************************************************************************/
 
 /* About Page Css*/
 .aboutHero-div-container {}
@@ -221,4 +339,25 @@ ul {
   justify-content: start;
   font-size: 2rem;
   color: aliceblue;
+}
+
+
+
+
+.about-content-container {
+  height: auto;
+  width: 100%;
+  background-color: #1a1a1a;
+  display: flex;
+  padding: 4em;
+}
+
+.about-content {
+  width: 60%;
+}
+
+.about-content p {
+  margin: 1.5em;
+  font-family: 'visby';
+  font-size: 2rem;
 }
