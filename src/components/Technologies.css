@@ -1,19 +1,22 @@
 .home-skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
     background-color: #1a1a1a;
-    padding: 3em 0;
+    padding: 1em 0;
     text-align: center;
-    height: 280vh;
+    height: 200vh;
     width: 100%;
     border-top-right-radius: 10%;
     border-top-left-radius: 10%;
     position: relative;
     left: 0;
     bottom: 0;
-    border: #987654 1px solid;
 }
 
 .home-skills-headline {
     margin: 0 auto;
+    margin-top: 1em;
     font-size: 5rem;
     width: 50%;
 }
@@ -30,16 +33,17 @@
 }
 
 .home-skills-subheadline {
-    margin-bottom: 4.5em;
+    margin-bottom: 1em;
     font-size: 2rem;
 }
 
 .skill-div {
     margin-top: 1em;
-    height: 50%;
+    height: 30%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 10em);
+    align-content: center;
 }
 
 .skill-div div {
@@ -86,9 +90,8 @@
 /***/
 .home-projects-container {
     padding: 3em;
-    height: 28%;
-    background-color: #e7dede41;
-    border: #987654 1px solid;
+    height: 42em;
+
     margin: 2em 0;
 
 }
@@ -97,16 +100,31 @@
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
     gap: 1em;
+    animation-timing-function: ease-in-out;
+    animation: slideIn 5s forwards;
+    transition-delay: 1s;
 }
 
 .flex-div .projectcard {
-    height: 90%;
+    height: 95%;
+    width: 25%;
+    background-color: #bdb2b267;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
 }
 
 .home-project-header {
-    margin: 2em;
     font-size: 4rem;
+    margin-top: 1em;
 }
