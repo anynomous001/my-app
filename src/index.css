@@ -240,65 +240,10 @@ ul {
   align-items: center;
 }
 
-.home-skills-container {
-  background-color: #1a1a1a;
-  padding: 3em 0;
-  text-align: center;
-  height: 100vh;
-  width: 100%;
-  border-top-right-radius: 40%;
-  border-top-left-radius: 40%;
-  position: relative;
-  left: 0;
-  bottom: 0;
-}
+/****home project section *************************************************/
 
-.home-skills-headline {
-  margin: 0 auto;
-  font-size: 5rem;
-  width: 50%;
-}
-
-.home-skills-container::after {
-  position: absolute;
-  content: '';
-  background-color: aliceblue;
-  height: inherit;
-  width: inherit;
-  z-index: -1;
-  left: 0;
-  bottom: 0;
-}
-
-.home-skills-subheadline {
-  margin-bottom: 4.5em;
-  font-size: 2rem;
-}
-
-.skill-div {
-  margin-top: 1em;
-  height: 70%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, auto);
-}
-
-.skill-div .first-row {
-  border-right: 1px solid rgba(255, 255, 255, 0.363);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.363);
-}
-
-.skill-div .second-row {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.363);
-
-  border-right: 1px solid rgba(255, 255, 255, 0.363);
-
-}
-
-.skill-div .third-row {
-  border-right: 1px solid rgba(255, 255, 255, 0.363);
-
-}
+/*************************************************************************************************************************/
+/*Home skill section*/
 
 /*****************************************************************************************************************************/
 

@@ -55,12 +55,12 @@
     transition: transform 0.5s ease-in-out;
 }
 
-.projectcard:hover {
+/*.projectcard:hover {
     z-index: 2;
     cursor: pointer;
     transform: scale(1.4);
     border-radius: 5px;
-}
+}*/
 
 .projectcard .source {
     background: rgb(222, 193, 150);

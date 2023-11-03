@@ -14,6 +14,7 @@ import {
     FaGitAlt,
     FaReact, FaHtml5, FaCss3, FaJsSquare,
 } from 'react-icons/fa'
+import Technologies from '../components/Technologies'
 
 
 const Home = () => {
@@ -35,22 +36,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className='home-skills-container'>
-                <h1 className='home-skills-headline'>Technologies</h1>
-                <p className='home-skills-subheadline'>that i use </p>
-                <div className='skill-div'>
-                    <div className='first-row'></div>
-                    <div className='first-row'></div>
-                    <div className='first-row'></div>
-                    <div className='second-row'></div>
-                    <div className='second-row'></div>
-                    <div className='second-row'></div>
-                    <div className='third-row'></div>
-                    <div className='third-row'></div>
-                    <div className='third-row'></div>
-                </div>
-            </div>
-            {/*<Hero video={video2} headline={"I'm a Frontend Developer."} />*/}
+            <Technologies />
             <Footer />
         </div>
     )
