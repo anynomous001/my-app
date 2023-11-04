@@ -139,7 +139,7 @@ ul {
 
 /*Home css*/
 .homeHero-div {
-  background-color: aliceblue;
+  background-color: #1a1a1a;
   height: 80vh;
   padding: 4em;
   display: flex;
@@ -149,7 +149,7 @@ ul {
 
 .visbyfont {
   font-family: 'Outfit', sans-serif;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   color: #DF0A42;
 }
 
@@ -159,6 +159,7 @@ ul {
   width: 10em;
   display: flex;
   align-items: center;
+  color: aliceblue;
 }
 
 .facode {
@@ -168,46 +169,62 @@ ul {
 }
 
 .homeHero-div div h2 {
+  color: aliceblue;
   font-family: 'visby', sans-serif;
   word-spacing: 0.2em;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin: 1em 0;
 }
 
-.coding {
+.oneliner {
+  font-family: 'visby';
+  position: relative;
+}
+
+.oneliner:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 20px;
+  height: 1em;
+  background-color: #dec196;
+}
+
+/*.coding {
   font-family: 'Outfit', sans-serif;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   color: #2D5869;
 }
 
 .ideas {
   font-family: 'Outfit', sans-serif;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   color: #2795AC;
 }
 
 .design {
   font-family: 'visby';
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   color: #FB6C06;
 }
-
+*/
 .btn {
   margin: 2rem 1rem;
   color: black;
   font-weight: 600;
   padding: 1.3rem 1.5rem;
-  background-color: rgba(240, 239, 231, 0.877);
   display: inline-block;
   cursor: pointer;
   font-size: 1.2rem;
   border-radius: 15px;
   border: 1px solid #1a1a1a;
   transition: transform 0.3s ease-in-out;
+  background: rgb(222, 193, 150);
+  background: linear-gradient(120deg, rgba(222, 193, 150, 1) 44%, rgba(152, 118, 84, 1) 84%);
 }
 
 .round-btn {
-  border: #1a1a1a 1px solid;
+  border: #dec196 1px solid;
   width: 4em;
   /* Set a fixed width for the button */
   height: 4em;
@@ -223,7 +240,12 @@ ul {
 }
 
 .github-icon {
-  color: #1a1a1a;
+  color: #dec196;
+  background-image: -webkit-radial-gradient(circle, #dec196 25%, #987654 85%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
   width: 2.5em;
   height: 2.5em;
   /* Additional styles for the GitHub icon, e.g., font-based or SVG */

@@ -24,9 +24,9 @@ const Home = () => {
             <div className='homeHero-div'>
                 <div>
                     <span className='small-tag'>Hi, I'm Pritam <FaCode className='facode' /></span>
-                    <h2>A <span className='visbyfont'>Frontend Developer</span> with a passion of<span className='coding'> coding</span>,
-                        <span className='design'> design</span> and <span className='ideas'>bringing ideas to
-                            life</span>.<br></br> <span> One line of code at a time.</span></h2>
+                    <h2>A <span className='visbyfont'>Frontend Developer</span> with a passion of  coding,
+                        design and bringing ideas to
+                        life. <span className='oneliner'> One line of code at a time.</span></h2>
 
                     <div className='btn-container'>
                         <Link className='btn' to='/Project'>Project</Link>
